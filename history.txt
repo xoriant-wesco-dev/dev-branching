@@ -1,0 +1,39 @@
+mkdir git-test
+cd git-test
+touch test.txt
+cd Desktop
+vi test.txt
+dir
+echo "# test-anand" >> README.md
+git init
+git add README.md
+git commit -m "first commit"
+git branch -M main
+git remote add origin https://github.com/xoriant-wesco-dev/dev-branching.git
+git push -u origin main
+git status 
+git branch
+git fetch --all
+git checkout master
+git add .
+git commit -m "first commit"
+git push origin master
+git bracnh
+git branch
+git checkout -b development
+git branch
+ll
+dir
+git status 
+git branch
+git add .
+git commit -m "added line in test file"
+git push origin development
+git status 
+git add .
+git commit -m "added second test message"
+git push origin development
+git checkout -b release
+history
+doskey /history
+doskey /history > history.txt
